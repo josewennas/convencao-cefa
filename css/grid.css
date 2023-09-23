@@ -1,0 +1,29 @@
+.imagens{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+
+.imagens :nth-child(1){
+grid-column: 1/3;
+}
+
+.imagens :nth-child(4){
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+.imagens{
+    background-color: #151515;
+}
+body{
+    background-color: #151515;
+}
+
+.botaodeinscricao{
+    margin: 0.0em 0.0em 0em 0em;
+    /* width: 200px; */
+
+
+}
