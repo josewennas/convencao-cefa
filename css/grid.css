@@ -5,9 +5,7 @@
     grid-template-rows: auto auto auto;
 
 }
-.imagem01{
-height: 100%;
-}
+
 .imagens :nth-child(1){
 grid-column: 1/3;
 }
